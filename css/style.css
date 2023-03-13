@@ -9,20 +9,42 @@ header {
     background-size: 250px;
 }
 
+#didascalia_titolo{
+    font-size: 12px;
+    color: gray;
+}
+
+#blue{
+    color: #4ea0ff;
+}
+
+#data{
+    font-size: 10px;
+}
+
 #logo {
     width: 100px;
     margin-top: 20px;
+}
+
+#didascalia_foto{
+    font-size: 10px;
 }
 
 h1{
     margin-bottom: 0%;
 }
 
-#titolo p{
+#titolo {
     font-size: 6px;
 }
 
+th, td{
+    border: 0;
+}
+
 thead{
+    border: 0;
     background-color: #21a8e4;
     color: white;
 }
@@ -33,4 +55,16 @@ tbody{
 
 #white{
     background-color: white;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.consigliati{
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
