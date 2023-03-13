@@ -1,0 +1,9 @@
+header {
+    background-image: url("pattern.png");
+    background-color: #4ea0ff ;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 20px;
+}
