@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-image: url("pattern.png");
+    background-image: url("../img/pattern.png") ;
     background-color: #4ea0ff ;
+    background-size: 250px;
 }
 
 #logo {
@@ -14,4 +20,17 @@ h1{
 
 #titolo p{
     font-size: 6px;
+}
+
+thead{
+    background-color: #21a8e4;
+    color: white;
+}
+
+tbody{
+    background-color: #b2e4f2;
+}
+
+#white{
+    background-color: white;
 }
